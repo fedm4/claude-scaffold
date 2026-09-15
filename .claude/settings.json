@@ -1,0 +1,27 @@
+{
+  "extraKnownMarketplaces": {
+    "fedm4": {
+      "source": {
+        "source": "github",
+        "repo": "fedm4/claude-scaffold"
+      }
+    },
+    "ponytail": {
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      }
+    },
+    "context-mode": {
+      "source": {
+        "source": "github",
+        "repo": "mksglu/context-mode"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "workflow@fedm4": true,
+    "ponytail@ponytail": true,
+    "context-mode@context-mode": true
+  }
+}

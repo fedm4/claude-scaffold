@@ -1,15 +1,15 @@
 # claude-scaffold
 
-Base para arrancar un proyecto trabajando con Claude Code.
+Base to bootstrap a project working with Claude Code.
 
-- `main`: agnóstica. Reglas de trabajo, skills, pr-agent, CI.
-- `ts`: `main` + stack TypeScript (pnpm, turbo, eslint, prettier, vitest).
+- `main`: language-agnostic. Working rules, skills, pr-agent, CI.
+- `ts`: `main` + TypeScript stack (pnpm, turbo, eslint, prettier, vitest).
 
-## Usarlo
+## Usage
 
 ```sh
 git remote add scaffold git@github.com:fedm4/claude-scaffold.git
-git pull scaffold main   # o ts
+git pull scaffold main   # or ts
 ```
 
-Para traer mejoras después, el mismo `git pull`.
+To pull updates later, use the same `git pull`.
