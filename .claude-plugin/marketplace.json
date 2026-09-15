@@ -1,0 +1,13 @@
+{
+  "description": "fedm4 plugins for working with Claude Code",
+  "name": "fedm4",
+  "owner": {
+    "name": "Federico"
+  },
+  "plugins": [
+    {
+      "name": "workflow",
+      "source": "./plugins/workflow"
+    }
+  ]
+}

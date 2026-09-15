@@ -1,0 +1,6 @@
+{
+  "name": "workflow",
+  "version": "0.1.0",
+  "description": "Working rules, skills and output style for working with Claude",
+  "author": {"name": "fedm4"}
+}
