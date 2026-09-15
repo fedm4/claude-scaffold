@@ -3,9 +3,9 @@ export
 
 .PHONY: check pr-review pr-incremental pr-describe pr-improve pr-ask pr-review-local
 
-# No checks yet: each stack replaces it (the `ts` branch runs lint, typecheck and test).
+# Lint, typecheck and test the TypeScript stack.
 check:
-	@echo "no checks yet"
+	pnpm lint && pnpm typecheck && pnpm test
 
 pr-review:
 	uv run pr-agent --pr_url "$(REPO_PULL_URL)$(PR)" review
