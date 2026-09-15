@@ -12,4 +12,4 @@ git remote add scaffold git@github.com:fedm4/claude-scaffold.git
 git pull scaffold main   # or ts
 ```
 
-To pull updates later, use the same `git pull`.
+To pull updates later, use the same `git pull`. To pin a version, pull a tag instead: `git pull scaffold v1.0.0` (`main`) or `git pull scaffold v1.0.0-ts` (`ts`).
