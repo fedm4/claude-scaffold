@@ -98,7 +98,15 @@ recommit in order. Either way, verify the tree didn't change:
 branch was already pushed and got rewritten. Open the PR against `main` (no
 session links in commits, PR body, or comments).
 
-## 10. Final report
+## 10. pr-agent review
+With CI green on the freshly opened PR:
+1. Run pr-agent's review: `make pr-review PR=<n>`, or the command the
+   project's `CLAUDE.md` names instead (e.g. `pnpm pr:review`).
+2. Read its comments.
+3. Apply what's worth it on the same branch, as in "Review round" below.
+4. Only then is the PR ready.
+
+## 11. Final report
 One line per task: `[task] · [model] · PASS|FAIL`.
 
 ## Review round
