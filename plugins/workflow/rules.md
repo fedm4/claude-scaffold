@@ -30,6 +30,10 @@ docs, language) live in the project's `CLAUDE.md`.
   A file created in one commit is touched again in a later commit only when
   that change depends on something else in the later commit; otherwise it
   belongs in the first one.
+- A PR touches at most 12 files. If a task would exceed this, split it into
+  two backlog items before writing code; each gets its own PR. (No automated
+  gate: legitimate renames may pass 12, and a check would create false
+  positives.)
 - A rewritten PR branch is pushed with `--force-with-lease`. Never force-push `main`.
 - Never `git add -A`. Add files by name and check `git status --short` first:
   the tree may hold the user's unfinished work. Ask about anything you don't recognize.
